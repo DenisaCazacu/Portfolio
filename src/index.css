@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Lexend+Giga:wght@100..900&family=Outfit:wght@100..900&display=swap');
 body {
   margin: 0;
-  background-image: url("./Images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(23, 2, 37);
   overflow-x: hidden;
-  width:100%;
 }
 *{
   font-family: "Outfit",serif;

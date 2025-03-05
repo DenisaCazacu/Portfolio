@@ -67,6 +67,7 @@
   width: 60%;
   font-size: 0.8rem;;
   margin-bottom: 5px;
+  text-align: center;
 }
 .card .button:hover {
   background: linear-gradient(135deg, #7a00cc, #cc00cc);
@@ -157,7 +158,7 @@
 }
 @media screen and (max-width: 1024px) {
   .carousel-container{
-    height:100%;
+    height:80vh;
   }
   .carousel {
       display: flex;
@@ -171,12 +172,15 @@
   .card {
     display: none;
   }
+  .card img{
+    width: 30%;
+  }
   .card.center {
     opacity: 1;
     height: auto;
     min-height: none;
     display: flex;
-    width: 30%;
+    width: 50%;
   }
   .modal-content{
     width: 70%;
